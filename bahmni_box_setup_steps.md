@@ -57,6 +57,10 @@ Guide To INSTALL Bahmni Software on a CentOS Minimal System
   ```
   scp -r root@bahmni-repo.twhosted.com:/packages/{localrepo,servers,tools,python-packages} /packages
   ```
+  or 
+  ```
+  scp -r root@172.18.2.14:/var/www/packages/{localrepo,servers,tools,python-packages} /packages
+  ```
   Change permissions of the packages folder
   ```
   chmod 777 -R /packages
